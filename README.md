@@ -61,3 +61,14 @@ Refer to details: [Tuya Smart Doc - iOS SDK](https://tuyainc.github.io/tuyasmart
 [CHANGELOG.md](./CHANGELOG.md)
 
 
+## Support
+
+You can get support from Tuya with the following methods:
+
+Tuya Smart Help Center: https://support.tuya.com/en/help
+
+Technical Support Council: https://iot.tuya.com/council/ 
+
+## License
+
+This Tuya Home iOS SDK Sample is licensed under the MIT License.
