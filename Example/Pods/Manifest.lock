@@ -32,28 +32,29 @@ PODS:
     - TuyaSmartBLEKit
     - TuyaSmartDeviceKit
     - TYBluetooth
-  - TuyaSmartDemo/AddDevice (0.8.2):
+  - TuyaSmartDemo/AddDevice (0.8.3):
     - Masonry
     - SDWebImage
     - TuyaSmartActivatorKit
+    - TuyaSmartBLEMeshKit
     - TuyaSmartDemo/Base
-  - TuyaSmartDemo/Base (0.8.2):
+  - TuyaSmartDemo/Base (0.8.3):
     - MBProgressHUD
     - Reachability
     - TuyaSmartBaseKit
     - YYModel
-  - TuyaSmartDemo/DeviceList (0.8.2):
+  - TuyaSmartDemo/DeviceList (0.8.3):
     - SDWebImage
     - TuyaSmartDemo/Base
     - TuyaSmartDeviceKit
-  - TuyaSmartDemo/Login (0.8.2):
+  - TuyaSmartDemo/Login (0.8.3):
     - TuyaSmartBaseKit
     - TuyaSmartDemo/Base
-  - TuyaSmartDemo/SmartScene (0.8.2):
+  - TuyaSmartDemo/SmartScene (0.8.3):
     - SDWebImage
     - TuyaSmartDemo/Base
     - TuyaSmartSceneKit
-  - TuyaSmartDemo/UserInfo (0.8.2):
+  - TuyaSmartDemo/UserInfo (0.8.3):
     - TuyaSmartDemo/Base
   - TuyaSmartDeviceKit (3.17.4):
     - TuyaSmartBaseKit
@@ -92,6 +93,7 @@ PODS:
   - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - MBProgressHUD (~> 0.9.2)
   - TuyaSmartDemo/AddDevice (from `../`)
   - TuyaSmartDemo/Base (from `../`)
   - TuyaSmartDemo/DeviceList (from `../`)
@@ -141,7 +143,7 @@ SPEC CHECKSUMS:
   TuyaSmartBaseKit: 7450992991c7ccff63d28b2994d9d08202b63e3e
   TuyaSmartBLEKit: a3f5a6bc3f4f1552e7e02f8de059503e488d1c17
   TuyaSmartBLEMeshKit: 3372d597e87ceffb74e8e0b82d30536905cab47c
-  TuyaSmartDemo: a425cc8c5a7c9074ce5262e6c763aedd5e10b124
+  TuyaSmartDemo: 5794b80cc405f5530c1017d0bcceaf1815a9a309
   TuyaSmartDeviceKit: 0aa4db6acbf2df56947ee80c20c5b23daced3b12
   TuyaSmartFeedbackKit: 88101dccbeeb1a17a93f2ee72bd9ae84d9ce7eb4
   TuyaSmartHomeKit: 9005762ce67d39f9b5b8a4fd1ef95c0571cb571e
@@ -154,6 +156,6 @@ SPEC CHECKSUMS:
   TYBluetooth: 0741669a99673b1de97365fb7584eaee75db2bdd
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: ad276b6f8a04f3a4e82dd82e149e1c8e6554981a
+PODFILE CHECKSUM: e454b837cccd3e4c72967d75fe50c4f64d94258c
 
 COCOAPODS: 1.9.1

@@ -83,6 +83,7 @@ Pod::Spec.new do |s|
     ss.dependency 'SDWebImage'
     ss.dependency 'Masonry'
     ss.dependency 'TuyaSmartActivatorKit'
+    ss.dependency 'TuyaSmartBLEMeshKit'
   end
   
   s.subspec 'UserInfo' do |ss|
