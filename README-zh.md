@@ -1,4 +1,4 @@
-#### 注意：当前仓库继承自即将被废弃的涂鸦 Github 仓库：https://github.com/TuyaInc/tuyasmart_home_ios_sdk ，请使用当前 Github 仓库进行涂鸦 SDK 相关开发。更换远程 Github 仓库 URL 的教程，可以参考：https://docs.github.com/cn/free-pro-team@latest/github/using-git/changing-a-remotes-url
+#### 注意：当前仓库继承自即将被[废弃的涂鸦 Github 仓库](https://github.com/TuyaInc/tuyasmart_home_ios_sdk)，请使用当前 Github 仓库进行涂鸦 SDK 相关开发。更换远程 Github 仓库 URL 的教程，可以参考[这里](https://docs.github.com/cn/free-pro-team@latest/github/using-git/changing-a-remotes-url).
 
 #  涂鸦全屋智能 iOS SDK
 
