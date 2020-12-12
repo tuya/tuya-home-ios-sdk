@@ -36,6 +36,7 @@ PODS:
     - Masonry
     - SDWebImage
     - TuyaSmartActivatorKit
+    - TuyaSmartBLEMeshKit
     - TuyaSmartDemo/Base
   - TuyaSmartDemo/Base (0.8.3):
     - MBProgressHUD
@@ -105,10 +106,10 @@ DEPENDENCIES:
   - TuyaSmartDemo/Login (from `../`)
   - TuyaSmartDemo/SmartScene (from `../`)
   - TuyaSmartDemo/UserInfo (from `../`)
-  - TuyaSmartHomeKit
+  - TuyaSmartHomeKit (~> 3.20.0)
 
 SPEC REPOS:
-  https://cdn.cocoapods.org/:
+  trunk:
     - CocoaAsyncSocket
     - Masonry
     - MBProgressHUD
@@ -150,7 +151,7 @@ SPEC CHECKSUMS:
   TuyaSmartBaseKit: 36f13a5369ad0b6128e55d6b9b4365a00a0ddfe3
   TuyaSmartBLEKit: 26768d64cbc18a1b6dae2bfb78e63ddb192aa66a
   TuyaSmartBLEMeshKit: a3dd4b5314ea40078f94236dc3f2235a44412a48
-  TuyaSmartDemo: 019f4e9682da8833463300a394eb443c4b2a662e
+  TuyaSmartDemo: f8984b8800f1475f9e8ec292adc89161332bea22
   TuyaSmartDeviceCoreKit: b92d164d07a3b53a228ebaa2167de6859af0264d
   TuyaSmartDeviceKit: bfb31465cb6483bca27f45c3aa1f8f4660e93b8a
   TuyaSmartFeedbackKit: 63789d8b9d47dd3a1fa417ec376667b4f0543551
@@ -165,6 +166,6 @@ SPEC CHECKSUMS:
   TYBluetooth: 0741669a99673b1de97365fb7584eaee75db2bdd
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: e454b837cccd3e4c72967d75fe50c4f64d94258c
+PODFILE CHECKSUM: 7ae481fe0e60142db5c0274af95d409be7a5b196
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.9.1
