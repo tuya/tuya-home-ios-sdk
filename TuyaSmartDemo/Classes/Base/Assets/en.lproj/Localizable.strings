@@ -727,4 +727,7 @@
 "Add SIG Mesh device" = "Add SIG Mesh device";
 "Add Ble single" = "Add Ble single";
 "Add Ble wifi" = "ble + Wi-Fi device";
+"saturation" = "Saturation";
+"Bright" = "Bright";
+"Temperature" = "Temperature";
 

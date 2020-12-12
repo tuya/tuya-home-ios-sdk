@@ -728,3 +728,6 @@
 "Add SIG Mesh device" = "SIG Mesh 设备激活";
 "Add Ble single" = "单点蓝牙设备激活";
 "Add Ble wifi" = "蓝牙 + Wi-Fi 双模设备激活";
+"saturation" = "饱和度";
+"Bright" = "亮度";
+"Temperature" = "冷暖";
