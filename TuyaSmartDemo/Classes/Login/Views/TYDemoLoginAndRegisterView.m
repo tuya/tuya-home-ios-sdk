@@ -53,6 +53,11 @@
     [self addSubview:self.passwordField];
     self.passwordField.placeholder = TYSDKDemoLocalizedString(@"input_password", @"");
     self.passwordField.secureTextEntry = YES;
+    if (@available(iOS 12.0, *)) {
+        self.passwordField.textContentType = UITextContentTypeOneTimeCode;
+    } else {
+        
+    }
     
     switch (currentType) {
         case TYLoginAndRegisterViewTypeLogin:
