@@ -578,6 +578,7 @@
 				CODE_SIGN_ENTITLEMENTS = TuyaSmartHomeKit_Example.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TuyaSmartHomeKit/TuyaSmartHomeKit-Prefix.pch";
 				INFOPLIST_FILE = "TuyaSmartHomeKit/TuyaSmartHomeKit-Info.plist";
@@ -599,6 +600,7 @@
 				CODE_SIGN_ENTITLEMENTS = TuyaSmartHomeKit_Example.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 94JFPTRDN5;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TuyaSmartHomeKit/TuyaSmartHomeKit-Prefix.pch";
 				INFOPLIST_FILE = "TuyaSmartHomeKit/TuyaSmartHomeKit-Info.plist";
