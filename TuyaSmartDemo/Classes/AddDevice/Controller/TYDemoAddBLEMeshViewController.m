@@ -8,7 +8,7 @@
 
 #import "TYDemoAddBLEMeshViewController.h"
 #import "TYDemoAddDeviceUtils.h"
-#import "TYDemoSmartHomeManager.h"
+#import "TYDemoConfiguration.h"
 #import "TYDemoBleDeviceListViewController.h"
 #import "TPDemoProgressUtils.h"
 
@@ -94,7 +94,9 @@
     [self appendConsoleLog:@"start listening mesh devices ..."];
     [self.meshModelArray removeAllObjects];
     [self.devIdArray removeAllObjects];
-    TuyaSmartBleMeshModel *sigMeshModel = [TuyaSmartHome homeWithHomeId:[TYDemoSmartHomeManager sharedInstance].currentHomeModel.homeId].sigMeshModel;
+    id<TYDemoDeviceListModuleProtocol> impl = [[TYDemoConfiguration sharedInstance] serviceOfProtocol:@protocol(TYDemoDeviceListModuleProtocol)];
+    long long homeId = [impl currentHomeId];
+    TuyaSmartBleMeshModel *sigMeshModel = [TuyaSmartHome homeWithHomeId:homeId].sigMeshModel;
     [[TuyaSmartSIGMeshManager sharedInstance] startScanWithScanType:ScanForUnprovision meshModel:sigMeshModel];
     [TuyaSmartSIGMeshManager sharedInstance].delegate = self;
 }
@@ -134,7 +136,9 @@
 }
 
 - (void)activeBleMesh:(NSArray<TuyaSmartSIGMeshDiscoverDeviceInfo *> *)messArray {
-    TuyaSmartBleMeshModel *sigMeshModel = [TuyaSmartHome homeWithHomeId:[TYDemoSmartHomeManager sharedInstance].currentHomeModel.homeId].sigMeshModel;
+    id<TYDemoDeviceListModuleProtocol> impl = [[TYDemoConfiguration sharedInstance] serviceOfProtocol:@protocol(TYDemoDeviceListModuleProtocol)];
+    long long homeId = [impl currentHomeId];
+    TuyaSmartBleMeshModel *sigMeshModel = [TuyaSmartHome homeWithHomeId:homeId].sigMeshModel;
     [[TuyaSmartSIGMeshManager sharedInstance] startActive:self.meshModelArray meshModel:sigMeshModel];
     
     [TPDemoProgressUtils showMessag:@"start activate" toView:self.view];

@@ -8,7 +8,7 @@
 #import "TYDemoAddBLEWIFIViewController.h"
 #import <TuyaSmartBLEKit/TuyaSmartBLEKit.h>
 #import "TYDemoAddDeviceUtils.h"
-#import "TYDemoSmartHomeManager.h"
+#import "TYDemoConfiguration.h"
 #import <TuyaSmartActivatorKit/TuyaSmartActivatorKit.h>
 
 @interface TYDemoAddBLEWIFIViewController () <TuyaSmartBLEManagerDelegate, TuyaSmartBLEWifiActivatorDelegate>
@@ -169,7 +169,8 @@
     
     [self appendConsoleLog:[NSString stringWithFormat:@"selected ble device:%@",bleAdvModel.uuid]];
     self.bleSingleUuidField.text = bleAdvModel.uuid;
-    long long homeId = [TYDemoSmartHomeManager sharedInstance].currentHomeModel.homeId;
+    id<TYDemoDeviceListModuleProtocol> impl = [[TYDemoConfiguration sharedInstance] serviceOfProtocol:@protocol(TYDemoDeviceListModuleProtocol)];
+    long long homeId = [impl currentHomeId];
     
     TuyaSmartBLEWifiActivator.sharedInstance.bleWifiDelegate = self;
     [[TuyaSmartBLEWifiActivator sharedInstance] startConfigBLEWifiDeviceWithUUID:bleAdvModel.uuid

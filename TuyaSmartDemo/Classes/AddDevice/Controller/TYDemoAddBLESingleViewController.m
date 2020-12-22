@@ -9,7 +9,7 @@
 #import "TYDemoAddBLESingleViewController.h"
 #import <TuyaSmartBLEKit/TuyaSmartBLEKit.h>
 #import "TYDemoAddDeviceUtils.h"
-#import "TYDemoSmartHomeManager.h"
+#import "TYDemoConfiguration.h"
 
 @interface TYDemoAddBLESingleViewController () <TuyaSmartBLEManagerDelegate>
 
@@ -133,7 +133,8 @@
 - (void)activeBLEWithSelectedAdvModel:(TYBLEAdvModel *)bleAdvModel {
     [self appendConsoleLog:[NSString stringWithFormat:@"selected ble device:%@",bleAdvModel.uuid]];
     self.bleSingleUuidField.text = bleAdvModel.uuid;
-    long long homeId = [TYDemoSmartHomeManager sharedInstance].currentHomeModel.homeId;
+   id<TYDemoDeviceListModuleProtocol> impl = [[TYDemoConfiguration sharedInstance] serviceOfProtocol:@protocol(TYDemoDeviceListModuleProtocol)];
+    long long homeId = [impl currentHomeId];
     [[TuyaSmartBLEManager sharedInstance] activeBLE:bleAdvModel homeId:homeId
                                             success:^(TuyaSmartDeviceModel * _Nonnull deviceModel) {
         //config network success
