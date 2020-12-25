@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.libraries = 'c++', 'z'
 
-  s.dependency 'TuyaSmartUtil', '>= 3.21.0'
+  s.dependency 'TuyaSmartUtil', '>= 3.20.0'
   s.dependency 'YYModel'
 
 end
