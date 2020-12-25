@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name = "TuyaSmartHomeKit"
   s.version = "3.22.0"
-  s.summary = "A short description of #{s.name}."
+  s.summary = "#{s.name} for iOS."
   s.license = "none"
-  s.authors = {"0x5e"=>"gaosen@tuya.com"}
-  s.homepage = "https://tuya.com"
+  s.authors = {"Tuya SDK"=>"developer@tuya.com"}
+  s.homepage = "https://developer.tuya.com/"
   s.source = { :http => "https://images.tuyacn.com/smart/app/package/sdk/ios/TuyaSmartHomeKit-2.10.96.zip" }
 
   s.static_framework = true
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.dependency 'TuyaSmartBaseKit', '>= 3.22.0'
   s.dependency 'TuyaSmartDeviceCoreKit', '>= 3.22.0'
   s.dependency 'TuyaSmartDeviceKit', '>= 3.22.0'
-  
+
   s.ios.dependency 'TuyaSmartActivatorKit', '>= 3.22.0'
   s.ios.dependency 'TuyaSmartMQTTChannelKit', '>= 3.20.0'
   s.ios.dependency 'TuyaSmartSocketChannelKit', '>= 3.20.0'

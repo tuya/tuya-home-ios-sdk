@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.summary          = 'Tuya bluetooth, less write and can use anywhere.'
   s.description      = '🚀Tuya bluetooth, less write and can use anywhere.'
 
-  s.homepage         = 'https://tuya.com'
+  s.homepage         = "https://developer.tuya.com/"
   s.license          = "none"
-  s.author           = { 'huangdaxia' => 'huangkai@tuya.com' }
+  s.author           = { "Tuya SDK"=>"developer@tuya.com" }
   s.source = { :http => "https://images.tuyacn.com/smart/app/package/sdk/ios/#{s.name}-#{s.version}.zip", :type => "zip" }
 
   s.ios.deployment_target     = '8.0'
