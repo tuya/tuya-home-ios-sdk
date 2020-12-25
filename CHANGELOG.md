@@ -1,244 +1,249 @@
-# TuyaSmartHomeKit iOS SDK Change Log
+# Tuya Smart iOS Home SDK 发布记录
 
-## 3.20.0(2020-10-30)
+## v3.22.0
 
-- 新增功能
-  - 新增游客登录模式
-  - 新增闪电配网功能
+### 发布日期
 
-  - Bug fixed
-- New Feature
-  - New guest user login mode
-  - Support new lightning active device
-  - Bug fixed
+2020年12月25日
 
+### 新增功能
 
+- 新增绑定邮箱功能
+- 新增 Home kit 设备激活功能
+- 支持红外射频设备
+- 新增大数据通道入口
+- 新增标准电工产品品类群组
 
-## 3.19.0(2020-09-21)
+### 已修复Bug
 
-- 新增功能
-  - 全新定时接口功能
-  - 房间支持更换自定义图片
-  - 设备属性新增设备 dps 时间，可记录对应 dp 就近变化的时间
-  - Bug fixed
-- New Feature
-  - New timing interface function
-  - The room supports changing custom pictures
-  - Added device dps time for device attributes, which can record the time corresponding to the nearest change of dp
-  - Bug fixed
+- 优化用户设备过多时订阅较慢问题
+- 优化分享类蓝牙设备不断开问题
 
-## 3.17.6(2020-07-09)
-
-- 新增功能
-  - 新增场景日出日落相关的定时条件创建方式
-  - Bug fixed
-- New Feature
-  - Smart scene of timing conditions related to sunrise and sunset
-  - Bug fixed
-
-## 3.17.0(2020-04-27)
-
-- 新增功能
-  - 新增场景支持地理围栏条件触发
-  - 新增固件升级状态提示
-  - 新增三方扫码登录
-  - 新增 Mesh 快速配网
-  - 新增 Wi-Fi 子设备群组
-  - Bug fixed
-- New Feature
-  - Smart scene support for geofence condition trigger
-  - Firmware upgrade status prompt
-  - QR code login
-  - Mesh support fast active
-  - Support Wi-Fi sub-device group
-  - Bug fixed
-
-## 3.15.0(2020-04-11)
-
-- 新增功能
-  - 群组自定义 icon 功能
-  - Bug fixed
-- New Feature
-  - Group support set custom icon
-  - Bug fixed
-
-## 3.14.0(2019-12-21)
-
-- 新增功能
-  - `MQTTClient` 升级到 `0.15.2` 版本
-  - HTTP 请求和响应数据加密
-  - 新增家庭角色权限管理
-  - 场景 SDK 增加缓存
-  - 增加创建场景条件和场景动作的便捷工具类
-  - bug fixed
-- New Feature
-  - `MQTTClient` use `0.15.2`
-  - HTTP request and response data encryption
-  - Manager more family member role
-  - Add scene cache
-  - Add scene conditions and actions class
-  - Bug fixed
-
-## 3.13.0(2019-12-06)
-
-* 新增功能
-  - 支持标准DPCode 控制
-  - 家庭权限角色支持多样性
-* New Feature
-  * Support DP Code Control
-  * Support more family member role
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
 
 
+## v3.20.0
 
-## 3.12.0(2019-09-21)
+### 发布日期
 
-- 功能变化
+2020年10月30日
 
-  - 设备支持更新头像
-  - 支持wifi和蓝牙双模设备
-  - 支持子设备OTA
-  - 固件升级添加升级中的代理回调
-  - AP 配网优化
-  - 定时支持备注和推送功能
-  - 支持 SigMesh 设备
-  - bug 修复
+### 新增功能
 
-- Functional change
+- 新增游客登录模式
+- 新增闪电配网功能
 
-  - Device Support Update Head Image
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
 
-  - Support Wifi and Bluetooth Dual-mode Devices
 
-  - Support sub device OTA
+## v3.19.0
 
-  - firmware upgrade to add  callbacks in upgrading
-  - AP Distribution Network Optimization
-  - Timing support annotation and push function
-  - Support SigMesh Devices
-  - bug fixed
+### 发布日期
 
-## 2.12.46(2019-07-22)
+2020年09月21日
 
-- bug 修复，推送消息可分类开启
-- bug fixed, Push Notification was classified. 
+### 新增功能
 
-## 2.10.97(2019-06-20)
+- 全新定时接口功能
+- 房间支持更换自定义图片
+- 设备属性新增设备 dps 时间，可记录对应 dp 就近变化的时间
+- Bug fixed
 
-- 兼容新版本Cocoapods (>=1.6.0)
-- Support  CocoaPods (>= 1.6.0)
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
 
-## 2.10.96(2019-05-11)
 
-- bug 修复，新增免密码配网，新增消息推送的开启和关闭，新增开发环境推送支持
-- bug fixed, add device network configuration without password, add push notification to open or close, add development environment push support
+## v3.17.6
 
-## 2.8.44(2019-03-28)
+### 发布日期
+
+2020年07月09日
+
+### 新增功能
+
+- 新增场景日出日落相关的定时条件创建方式
+- Bug fixed
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+## v3.17.0
+
+### 发布日期
+
+2020年04月27日
+
+### 新增功能
+
+- 新增场景支持地理围栏条件触发
+- 新增固件升级状态提示
+- 新增三方扫码登录
+- 新增 Mesh 快速配网
+- 新增 Wi-Fi 子设备群组
+- Bug fixed
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+## v3.15.0
+
+### 发布日期
+
+2020年04月11日
+
+### 新增功能
+
+- 群组自定义 icon 功能
+- Bug fixed
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+## v3.14.0
+
+### 发布日期
+
+2019年12月21日
+
+### 新增功能
+
+- MQTTClient 升级到 `0.15.2` 版本
+- HTTP 请求和响应数据加密
+- 新增家庭角色权限管理
+- 场景 SDK 增加缓存
+- 增加创建场景条件和场景动作的便捷工具类
+- 支持 Apple ID 登录
+- Bug Fixed
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+## v3.13.0
+
+### 发布日期
+
+2019年12月06日
+
+### 新增功能
+
+- 支持标准 Dp Code 控制
+- 家庭权限角色支持多样性
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+## v3.12.0
+
+### 发布日期
+
+2019年09月21日
+
+### 新增功能
+
+- 设备支持更新头像
+- 支持 Wi-Fi 和蓝牙双模设备
+- 支持子设备 OTA
+- 固件升级添加升级中的代理回调
+- AP 配网优化
+- 定时支持备注和推送功能
+- 支持 SigMesh 设备
+- Bug 修复
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+## v2.12.46
+
+### 发布日期
+
+2019年07月22日
+
+### 新增功能
+
+- 推送消息可分类开启
+- Bug 修复
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+## v2.10.97
+
+### 发布日期
+
+2019年06月20日
+
+### 新增功能
+
+- 兼容新版本 Cocoapods (>=1.6.0)
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+## v2.10.96
+
+### 发布日期
+
+2019年05月11日
+
+### 新增功能
+
+- 新增免密码配网
+- 新增消息推送的开启和关闭
+- 新增开发环境推送支持
+- Bug 修复
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
+
+## v2.8.44
+
+### 发布日期
+
+2019年03月28日
+
+### 新增功能
 
 - 修复 Wi-Fi 子设备在线异常问题
-- Fixed an online problem with Wi-Fi subdevices
+- Bug 修复
 
-## 2.8.43(2019-03-15)
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
 
-- 新的加密方式：需要在涂鸦开发者平台申请应用的 Appkey，AppSecret，iOS安全图片，bundleId
 
-- New encryption:  Appkey, AppSecret, iOS security images, bundleId for application on Tuya Developer Platform
+## v2.8.43
 
-## 0.2.2(2019-01-19)
-bug fixed
+### 发布日期
 
-## 0.2.1(2019-01-08)
-TuyaSmartHomeKit iOS SDK functions split:
+2019年03月15日
 
- - TuyaSmartUtil 
-    - Utility classes, including category etc
-- TuyaSmartBaseKit 
-    - Account system (phone number, email registration, login, password reset)
-    - HTTP API interface
-- TuyaSmartDeviceKit
-  -  Home, room, group, device manager
-  -  network configuration
-  -  Device control
-  -  Shared devices
-- TuyaSmartTimerKit
-  - Timer task
-- TuyaSmartSceneKit
-  - Smart scene
-- TuyaSmartFeedbackKit
-  - Feedback
-- TuyaSmartMessageKit
-  - Message center
-- TYBluetooth
-   - Bluetooth base 
-- TuyaSmartBLEKit
-  - single bluetooth
-- TuyaSmartBLEMeshKit
-  - Ble mesh
+### 新增功能
 
-## 0.1.6 (2018-12-26)
+- 新的加密方式：需要在涂鸦开发者平台申请应用的 Appkey，AppSecret，iOS 安全图片，BundleId
 
-- bug fixed : Time zoneId update 
-
-## 0.1.5 (2018-12-26)
-
-- add : Low power consumption wake up method
-
-## 0.1.4 (2018-12-26)
-
-- bug fixed : TuyaSmartUser Avatars url updated, no update local cache
-
-## 0.1.3 (2018-11-20)
-
-- 添加更新用户时区接口
-
-## 0.1.0 (2018-10-30)
-
--  控制台日志输出问题
-
-## 0.0.20 (2018-10-25)
-
-- 添加设备的数据流通道
-- 文档更新
-
-## 0.0.19 (2018-09-27)
-
-- add api merger service
-
-## 0.0.18 (2018-09-21)
-
--  去掉依赖 SDVersion'
-
-## 0.0.17 (2018-09-18)
-
-- 新的群组控制
-- MQTT控制优化
-- 群组分享更新
-
-## 0.0.16 (2018-08-30)
-
-- 新增获取设备的信号强度  
-
-## 0.0.15 (2018-08-13)
-- 群组功能更新
-- bug fixed
-- ble mesh 更新 
-
-## 0.0.11 (2018-06-29)
-- 固件升级 bug fixed
-- 智能场景接口更新
-
-## 0.0.7 (2018-06-25)
-- 固件升级接口更新
-- MQTTClient 版本指定为 0.14.0
-- add Demo
-- 添加 邮箱注册 2.0
-- 添加 停用账号 
-- 添加 zigbee子设备激活
-
-## 0.0.3 (2018-05-21)
-- 添加邀请分享接口
-
-## 0.0.2 (2018-05-12)
-- 更新 uid 登录注册接口
-- 文档更新
-
-## 0.0.1 (2018-03-13)
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
