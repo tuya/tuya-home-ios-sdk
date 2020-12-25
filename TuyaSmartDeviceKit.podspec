@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.watchos.vendored_frameworks = 'watchos/*.framework'
   # s.watchos.vendored_libraries = 'watchos/*.a'
 
-  s.dependency 'TuyaSmartBaseKit', '>= 3.19.0'
-  s.dependency 'TuyaSmartDeviceCoreKit', '>= 3.19.0'
+  s.dependency 'TuyaSmartBaseKit', '>= 3.22.0'
+  s.dependency 'TuyaSmartDeviceCoreKit', '>= 3.22.0'
 
 end
