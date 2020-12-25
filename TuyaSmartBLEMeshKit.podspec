@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency 'TuyaSmartDeviceKit', '>= 3.20.0'
   s.dependency 'TYBluetooth'
   s.dependency 'TuyaSmartActivatorKit', '>= 3.20.0'
-  s.dependency 'OpenSSL-Universal', '1.0.2.17'
+  s.dependency 'OpenSSL-Universal', '~> 1.0.2.0'
   s.dependency 'TuyaSmartBLEKit', '>= 3.20.0'
 
 end
