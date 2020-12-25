@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name = "TuyaSmartMessageKit"
-  s.version = "3.18.0"
-  s.summary = "A short description of #{s.name}."
+  s.version = "3.22.0"
+  s.summary = "#{s.name} for iOS."
   s.license = "none"
-  s.authors = {"0x5e"=>"gaosen@tuya.com"}
-  s.homepage = "https://tuya.com"
+  s.authors = {"Tuya SDK"=>"developer@tuya.com"}
+  s.homepage = "https://developer.tuya.com/"
   s.source = { :http => "https://images.tuyacn.com/smart/app/package/sdk/ios/#{s.name}-#{s.version}.zip", :type => "zip" }
 
   s.static_framework          = true
