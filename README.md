@@ -2,7 +2,7 @@
 
 # Tuya Smart iOS SDK
 
-[中文版](README-zh.md) | [English](README.md)
+[English](README.md)|[中文版](README-zh.md)
 
 ---
 
