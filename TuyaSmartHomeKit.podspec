@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Headers/**/*.h'
 
-  s.dependency 'TuyaSmartDefaultPanelKit'
+  s.ios.dependency 'TuyaSmartDefaultPanelKit'
 
   s.dependency 'TuyaSmartBaseKit', '>= 3.24.0'
   s.dependency 'TuyaSmartDeviceCoreKit', '>= 3.24.0'
