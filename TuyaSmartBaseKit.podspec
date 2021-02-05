@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "TuyaSmartBaseKit"
-  s.version = "3.22.2"
+  s.version = "3.24.1"
   s.summary = "#{s.name} for iOS."
   s.license = "none"
   s.authors = {"Tuya SDK"=>"developer@tuya.com"}
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.libraries = 'c++', 'z'
 
-  s.dependency 'TuyaSmartUtil', '>= 3.20.0'
+  s.dependency 'TuyaSmartUtil', '>= 3.23.0'
   s.dependency 'YYModel'
 
 end

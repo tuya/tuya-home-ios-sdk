@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "TuyaSmartDeviceCoreKit"
-  s.version = "3.22.4"
+  s.version = "3.24.1"
   s.summary = "#{s.name} for iOS."
   s.license = "none"
   s.authors = {"Tuya SDK"=>"developer@tuya.com"}
@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
   s.watchos.vendored_frameworks = 'watchos/*.framework'
   # s.watchos.vendored_libraries = 'watchos/*.a'
 
-  s.dependency 'TuyaSmartUtil', '>= 3.21.0'
-  s.dependency 'TuyaSmartBaseKit', '>= 3.20.0'
+  s.dependency 'TuyaSmartUtil', '>= 3.23.0'
+  s.dependency 'TuyaSmartBaseKit', '>= 3.24.0'
 
-  s.ios.dependency 'TuyaSmartMQTTChannelKit', '>= 3.20.0'
-  s.ios.dependency 'TuyaSmartSocketChannelKit', '>= 3.20.0'
+  s.ios.dependency 'TuyaSmartMQTTChannelKit', '>= 3.24.0'
+  s.ios.dependency 'TuyaSmartSocketChannelKit', '>= 3.24.0'
 
 end
