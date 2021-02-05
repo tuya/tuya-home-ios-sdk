@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'CoreLocation'
 
-  s.dependency 'TuyaSmartBaseKit', '>= 3.24.0'
-  s.dependency 'TuyaSmartDeviceKit', '>= 3.24.0'
+  s.dependency 'TuyaSmartBaseKit'
+  s.dependency 'TuyaSmartDeviceKit'
 
 end
