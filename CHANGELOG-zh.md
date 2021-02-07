@@ -1,5 +1,22 @@
 # Tuya Smart iOS Home SDK 发布记录
 
+## v3.24.0
+
+### 发布日期
+
+2020年2月5日
+
+### 新增功能
+
+- 提供控制智能设备的低代码通用面板，即TuyaSmartDefaultPanelKit库
+- 三方库兼容性优化，依赖库改为动态库 (即OpenSSL, MQTTClient库)
+- 低功耗设备 OTA 优化
+- 支持分享 NB-IoT 设备
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
 ## v3.22.0
 
 ### 发布日期

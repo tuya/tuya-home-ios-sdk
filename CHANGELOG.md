@@ -1,5 +1,22 @@
 # Tuya Smart iOS Home SDK Release Notes
 
+## v3.24.0
+
+### Release Date
+
+2020.02.05
+
+### Highlights
+
+- Provided low-code generic panel for controlling smart devices, namely the **TuyaSmartDefaultPanelKit** library.
+- Optimized third-party library compatibility. The dependency library is changed to the dynamic library (OpenSSL and MQTTClient library).
+- Optimized OTA for low power devices.
+- Supported NB-IoT devices sharing.
+
+<div>
+        &copy; 2014 - 2021 Tuya Inc. All Rights Reserved.
+</div>
+
 ## v3.22.0
 
 ### Release Date
