@@ -63,5 +63,4 @@ CocoaPods 的使用请参考：[CocoaPods Guides](https://guides.cocoapods.org/)
 
 ## 版本更新记录
 
-[CHANGELOG.md](./CHANGELOG.md)
-
+[发布日志](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/changelog?id=Ka5vc933r3qja)

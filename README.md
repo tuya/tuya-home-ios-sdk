@@ -60,7 +60,7 @@ Refer to details: [Tuya Smart Doc - iOS SDK](https://tuyainc.github.io/tuyasmart
 
 ## ChangeLog
 
-[CHANGELOG.md](./CHANGELOG.md)
+[Change Log](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/changelog?id=Ka5vc933r3qja)
 
 
 ## Support
