@@ -54,9 +54,12 @@ Open file `AppDelegate.m`，and use the `App ID` and `App Secret` obtained from 
 
 Now all the preparatory work has been completed. You can set out to develop your application.
 
-## Doc
+## Documentation
 
-Refer to details: [Tuya Smart Doc - iOS SDK](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/en/)
+Refer to details: [Tuya Smart Doc - iOS SDK](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/feature-overview?id=Ka5cgmlybhjk8)
+
+[API Reference](https://tuyainc.github.io/tuyasmart_home_ios_sdk_api_reference/index.html)
+
 
 ## ChangeLog
 
