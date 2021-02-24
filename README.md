@@ -1,4 +1,4 @@
-#### Note: This repository is inherited from the [old Tuya Github repository](https://github.com/TuyaInc/tuyasmart_home_ios_sdk), which will be deprecated soon. Please use this repository for Tuya SDK development instead. For changing the existing remote repository URL, please check this [tutorial](https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url).
+#### Note: This repository is inherited from the [old Tuya Github repository](https://github.com/TuyaInc/tuyasmart_home_ios_sdk), which will be deprecated soon. Use this repository for Tuya SDK development instead. You can change the existing remote repository URL. For more information, see [Tutorial](https://docs.github.com/en/free-pro-team@latest/github/using-git/changing-a-remotes-url).
 
 # Tuya Smart iOS SDK
 
@@ -6,21 +6,21 @@
 
 ---
 
-## Features Overview
+## Overview
 
-Tuya Smart iOS Home SDK is the iOS 9.0 and above version provided by Tuya for the field of smart home. iOS developers can quickly develop app functions based on SDK, realize the activation of intelligent hardware, hardware control, firmware upgrades, timed tasks, intelligent scenarios and other operations.
+Tuya Smart iOS Home SDK supports iOS 9.0 and later that are provided by Tuya Smart and applies to the field of smart home. iOS developers can quickly develop app functions based on the SDK, and realize the activation of intelligent hardware, hardware control, firmware upgrades, timed tasks, intelligent scenarios and other operations.
 
-The SDK includes the following features:
+The SDK includes the following functions:
 
 - Account system (phone number, email registration, login, password reset and other general account functions)
 - Home system (home management, room management, home sharing and other functions)
 - Hardware functions (network configuration, control, status reporting, timed tasks, groups, firmware upgrades, sharing)
 
-## Fast Integration
+## Efficient integration
 
-### Using CocoaPods integration (version 9.0 or above is supported)
+### Use CocoaPods integration (version 9.0 or later is supported)
 
-Add the following content in file `Podfile`:
+Add the following content in the file `Podfile`:
 
 ```ruby
 platform :ios, '9.0'
@@ -32,47 +32,49 @@ target 'your_target_name' do
 end
 ```
 
-Execute command `pod update` in the project's root directory to begin integration.
+Execute the command `pod update` in the project's root directory to begin integration.
 
-For the instructions of CocoaPods, please refer to: [CocoaPods Guides](https://guides.cocoapods.org/)
+For more information about CocoaPods, see [CocoaPods Guides](https://guides.cocoapods.org/).
 
-## Initializing SDK
+## Initialize the SDK
 
-1. Open project setting, `Target => General`, edit `Bundle Identifier` to the value from Tuya develop center.
-2. Import security image to the project and rename as `t_s.bmp`, then add it into `Project Setting => Target => Build Phases => Copy Bundle Resources`.
-3. Add the following to the project file `PrefixHeader.pch`：
+1. Open the project to apply the setting, `Target => General`, and set `Bundle Identifier` to the value from Tuya developer center.
+2. Import a security image to the project, rename the image as `t_s.bmp`, and then add the image to `Project Setting => Target => Build Phases => Copy Bundle Resources`.
+3. Add the following content to the project file `PrefixHeader.pch`：
 
 ```objective-c
 #import <TuyaSmartHomeKit/TuyaSmartKit.h>
 ```
 
-Open file `AppDelegate.m`，and use the `App ID` and `App Secret` obtained from the development platform in the `[AppDelegate application:didFinishLaunchingWithOptions:]`method to initialize SDK:
+4. Open the file `AppDelegate.m`，and use the `App ID` and `App Secret` that are obtained from the development platform in the `[AppDelegate application:didFinishLaunchingWithOptions:]` method to initialize the SDK:
 
 ```objective-c
 [[TuyaSmartSDK sharedInstance] startWithAppKey:<#your_app_key#> secretKey:<#your_secret_key#>];
 ```
 
-Now all the preparatory work has been completed. You can set out to develop your application.
-
-## Documentation
-
-Refer to details: [Tuya Smart Doc - iOS SDK](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/feature-overview?id=Ka5cgmlybhjk8)
-
-[API Reference](https://tuyainc.github.io/tuyasmart_home_ios_sdk_api_reference/index.html)
+All the preparation steps are finished. You can use the SDK to develop your application.
 
 
-## ChangeLog
+## References
 
-[CHANGELOG.md](./CHANGELOG.md)
+For more information, see:
+* [Tuya Smart Doc - iOS SDK](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/feature-overview?id=Ka5cgmlybhjk8)
+
+* [API Reference](https://tuyainc.github.io/tuyasmart_home_ios_sdk_api_reference/index.html)
+
+
+## Change log
+
+[CHANGELOG](https://github.com/tuya/tuya-home-ios-sdk/blob/main/CHANGELOG.md)
 
 
 ## Support
 
-You can get support from Tuya with the following methods:
+You can get support from Tuya Smart by using the following methods:
 
 Tuya Smart Help Center: https://support.tuya.com/en/help
 
-Technical Support Council: https://service.console.tuya.com
+Technical Support Console: https://service.console.tuya.com
 
 ## License
 
