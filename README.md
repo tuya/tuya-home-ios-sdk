@@ -8,13 +8,13 @@
 
 ## Overview
 
-Tuya Smart iOS Home SDK supports iOS 9.0 and later that are provided by Tuya Smart and applies to the field of smart home. iOS developers can quickly develop app functions based on the SDK, and realize the activation of intelligent hardware, hardware control, firmware upgrades, timed tasks, intelligent scenarios and other operations.
+Tuya Smart iOS Home SDK supports iOS 9.0 and later provided by Tuya Smart and applies to the field of smart home. iOS developers can quickly develop app functions based on the SDK, and realize the activation of intelligent hardware, hardware control, firmware update, timed tasks, intelligent scenarios, and other operations.
 
 The SDK includes the following functions:
 
-- Account system (phone number, email registration, login, password reset and other general account functions)
-- Home system (home management, room management, home sharing and other functions)
-- Hardware functions (network configuration, control, status reporting, timed tasks, groups, firmware upgrades, sharing)
+- Account system (phone number, email registration, login, password reset, and other general account functions)
+- Home system (home management, room management, home sharing, and other functions)
+- Hardware functions (network configuration, control, status reporting, timed tasks, groups, firmware update, and sharing)
 
 ## Efficient integration
 
@@ -38,8 +38,8 @@ For more information about CocoaPods, see [CocoaPods Guides](https://guides.coco
 
 ## Initialize the SDK
 
-1. Open the project to apply the setting, `Target => General`, and set `Bundle Identifier` to the value from Tuya developer center.
-2. Import a security image to the project, rename the image as `t_s.bmp`, and then add the image to `Project Setting => Target => Build Phases => Copy Bundle Resources`.
+1. Open the project to apply the setting, `Target => General`, and set `Bundle Identifier` to the value from the Tuya developer center.
+2. Import a security image to the project, rename it as `t_s.bmp`, and then add it to `Project Setting => Target => Build Phases => Copy Bundle Resources`.
 3. Add the following content to the project file `PrefixHeader.pch`：
 
 ```objective-c
@@ -60,12 +60,12 @@ All the preparation steps are finished. You can use the SDK to develop your appl
 For more information, see:
 * [Tuya Smart Doc - iOS SDK](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/feature-overview?id=Ka5cgmlybhjk8)
 
-* [API Reference](https://tuyainc.github.io/tuyasmart_home_ios_sdk_api_reference/index.html)
+* [API Reference](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/feature-overview?id=Ka5cgmlybhjk8)
 
 
-## Change log
+## Changelog
 
-[CHANGELOG](https://github.com/tuya/tuya-home-ios-sdk/blob/main/CHANGELOG.md)
+[Changelog](https://github.com/tuya/tuya-home-ios-sdk/blob/main/CHANGELOG.md)
 
 
 ## Support
