@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "TuyaSmartBaseKit"
-  s.version = "3.24.2"
+  s.version = "3.25.2"
   s.summary = "#{s.name} for iOS."
   s.license = "none"
   s.authors = {"Tuya SDK"=>"developer@tuya.com"}
@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
   s.watchos.frameworks = 'UIKit'
   # s.watchos.vendored_libraries = 'watchos/*.a'
   s.watchos.resources = 'watchos/*.framework/Versions/A/Resources/*'
+
+  s.source_files = 'ios/*.framework/Versions/A/Headers/*.h'
 
   s.libraries = 'c++', 'z'
 
