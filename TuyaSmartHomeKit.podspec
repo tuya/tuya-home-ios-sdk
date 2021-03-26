@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.ios.dependency 'TuyaSmartActivatorCoreKit', '>= 3.24.0'
   s.ios.dependency 'TuyaSmartActivatorKit', '>= 3.25.0'
   s.ios.dependency 'TuyaSmartMQTTChannelKit', '>= 3.24.0'
-  s.ios.dependency 'TuyaSmartSocketChannelKit', '>= 3.25.0'
+  s.ios.dependency 'TuyaSmartSocketChannelKit', '>= 3.24.0'
   s.ios.dependency 'TuyaSmartBLEKit', '>= 3.25.0'
   s.ios.dependency 'TuyaSmartBLEMeshKit', '>= 3.25.0'
 
