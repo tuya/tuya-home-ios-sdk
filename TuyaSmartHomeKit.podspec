@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "TuyaSmartHomeKit"
-  s.version = "3.22.0"
+  s.version = "3.24.0"
   s.summary = "#{s.name} for iOS."
   s.license = "none"
   s.authors = {"Tuya SDK"=>"developer@tuya.com"}
@@ -13,19 +13,21 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Headers/**/*.h'
 
-  s.dependency 'TuyaSmartBaseKit', '>= 3.22.0'
-  s.dependency 'TuyaSmartDeviceCoreKit', '>= 3.22.0'
-  s.dependency 'TuyaSmartDeviceKit', '>= 3.22.0'
+  s.ios.dependency 'TuyaSmartDefaultPanelKit'
 
-  s.ios.dependency 'TuyaSmartActivatorKit', '>= 3.22.0'
-  s.ios.dependency 'TuyaSmartMQTTChannelKit', '>= 3.20.0'
-  s.ios.dependency 'TuyaSmartSocketChannelKit', '>= 3.20.0'
-  s.ios.dependency 'TuyaSmartBLEKit', '>= 3.22.0'
-  s.ios.dependency 'TuyaSmartBLEMeshKit', '>= 3.22.0'
+  s.dependency 'TuyaSmartBaseKit', '>= 3.24.0'
+  s.dependency 'TuyaSmartDeviceCoreKit', '>= 3.24.0'
+  s.dependency 'TuyaSmartDeviceKit', '>= 3.24.0'
 
-  s.dependency 'TuyaSmartSceneKit', '>= 3.22.0'
-  s.dependency 'TuyaSmartTimerKit', '>= 3.22.0'
-  s.dependency 'TuyaSmartMessageKit', '>= 3.22.0'
-  s.dependency 'TuyaSmartFeedbackKit', '>= 3.22.0'
+  s.ios.dependency 'TuyaSmartActivatorKit', '>= 3.24.0'
+  s.ios.dependency 'TuyaSmartMQTTChannelKit', '>= 3.24.0'
+  s.ios.dependency 'TuyaSmartSocketChannelKit', '>= 3.24.0'
+  s.ios.dependency 'TuyaSmartBLEKit', '>= 3.24.0'
+  s.ios.dependency 'TuyaSmartBLEMeshKit', '>= 3.24.0'
+
+  s.dependency 'TuyaSmartSceneKit', '>= 3.24.0'
+  s.dependency 'TuyaSmartTimerKit', '>= 3.24.0'
+  s.dependency 'TuyaSmartMessageKit', '>= 3.24.0'
+  s.dependency 'TuyaSmartFeedbackKit', '>= 3.24.0'
 
 end

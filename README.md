@@ -65,7 +65,7 @@ For more information, see:
 
 ## Changelog
 
-[Changelog](https://github.com/tuya/tuya-home-ios-sdk/blob/main/CHANGELOG.md)
+[Change Log](https://developer.tuya.com/en/docs/app-development/ios-app-sdk/changelog?id=Ka5vc933r3qja)
 
 
 ## Support
