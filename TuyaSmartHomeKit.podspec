@@ -27,8 +27,8 @@ Pod::Spec.new do |s|
   s.ios.dependency 'TuyaSmartBLEMeshKit', '>= 3.25.0'
 
   s.dependency 'TuyaSmartSceneKit', '>= 3.25.0'
-  s.dependency 'TuyaSmartTimerKit', '>= 3.25.0'
-  s.dependency 'TuyaSmartMessageKit', '>= 3.25.0'
-  s.dependency 'TuyaSmartFeedbackKit', '>= 3.25.0'
+  s.dependency 'TuyaSmartTimerKit', '>= 3.24.0'
+  s.dependency 'TuyaSmartMessageKit', '>= 3.24.0'
+  s.dependency 'TuyaSmartFeedbackKit', '>= 3.24.0'
 
 end
