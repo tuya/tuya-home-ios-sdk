@@ -59,7 +59,7 @@ CocoaPods 的使用请参考：[CocoaPods Guides](https://guides.cocoapods.org/)
 
 ## 开发文档
 
-更多请参考: [涂鸦文档中心 - iOS SDK使用说明](https://tuyainc.github.io/tuyasmart_home_ios_sdk_doc/zh-hans/)
+更多请参考: [涂鸦文档中心 - iOS SDK使用说明](https://developer.tuya.com/cn/docs/app-development/feature-overview?id=Ka5cgmlybhjk8)
 
 ## 版本更新记录
 
