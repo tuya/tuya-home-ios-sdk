@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/TuyaInc/tuyasmart_home_ios_sdk.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'huangdaxia' => 'huangkai@tuya.com' }
+  s.author           = { "Tuya SDK" => "developer@tuya.com" }
   s.source           = { :git => 'https://github.com/TuyaInc/tuyasmart_home_ios_sdk.git', :branch => 'master' }
 
   s.ios.deployment_target = '8.0'
