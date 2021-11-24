@@ -97,18 +97,20 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/TuyaSmartBaseKit/ios/TuyaSmartBaseKit.framework/Versions/A/Resources/cerficate_v1"
+  install_resource "${PODS_ROOT}/TuyaDefaultPanelUIKit/Build/TuyaDefaultPanelUIKit.xcframework/ios-arm64_armv7/TuyaDefaultPanelUIKit.framework/CustomResources/Bundles/TuyaDefaultPanelUIKit.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TuyaSmartDemo/TuyaSmartDemoBaseBundle.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TuyaSmartDemo/TuyaSmartDemoDeviceListBundle.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TuyaSmartDemo/TuyaSmartDemoSceneBundle.bundle"
-  install_resource "${PODS_ROOT}/TuyaSmartUtil/ios/TuyaSmartUtil.framework/Versions/A/Resources/TuyaSmartUtil.bundle"
+  install_resource "${PODS_ROOT}/TuyaSmartNetworkKit/Build/TuyaSmartNetworkKit.xcframework/ios-arm64_armv7/TuyaSmartNetworkKit.framework/CustomResources/Assets/cerficate_v2"
+  install_resource "${PODS_ROOT}/TuyaSmartUtil/Build/TuyaSmartUtil.xcframework/ios-arm64_armv7/TuyaSmartUtil.framework/TuyaSmartUtil.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/TuyaSmartBaseKit/ios/TuyaSmartBaseKit.framework/Versions/A/Resources/cerficate_v1"
+  install_resource "${PODS_ROOT}/TuyaDefaultPanelUIKit/Build/TuyaDefaultPanelUIKit.xcframework/ios-arm64_armv7/TuyaDefaultPanelUIKit.framework/CustomResources/Bundles/TuyaDefaultPanelUIKit.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TuyaSmartDemo/TuyaSmartDemoBaseBundle.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TuyaSmartDemo/TuyaSmartDemoDeviceListBundle.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/TuyaSmartDemo/TuyaSmartDemoSceneBundle.bundle"
-  install_resource "${PODS_ROOT}/TuyaSmartUtil/ios/TuyaSmartUtil.framework/Versions/A/Resources/TuyaSmartUtil.bundle"
+  install_resource "${PODS_ROOT}/TuyaSmartNetworkKit/Build/TuyaSmartNetworkKit.xcframework/ios-arm64_armv7/TuyaSmartNetworkKit.framework/CustomResources/Assets/cerficate_v2"
+  install_resource "${PODS_ROOT}/TuyaSmartUtil/Build/TuyaSmartUtil.xcframework/ios-arm64_armv7/TuyaSmartUtil.framework/TuyaSmartUtil.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
