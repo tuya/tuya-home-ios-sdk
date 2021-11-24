@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "huangdaxia": "huangkai@tuya.com"
+    "Tuya SDK": "developer@tuya.com"
   },
   "source": {
     "git": "https://github.com/TuyaInc/tuyasmart_home_ios_sdk.git",
