@@ -8,7 +8,7 @@
 
 ## Overview
 
-Tuya Smart iOS Home SDK supports iOS 9.0 and later provided by Tuya Smart and applies to the field of smart home. iOS developers can quickly develop app functions based on the SDK, and realize the activation of intelligent hardware, hardware control, firmware update, timed tasks, intelligent scenarios, and other operations.
+Tuya Smart Life App SDK supports iOS 9.0 and later provided by Tuya Smart and applies to the field of smart home. iOS developers can quickly develop app functions based on the SDK, and realize the activation of intelligent hardware, hardware control, firmware update, timed tasks, intelligent scenarios, and other operations.
 
 The SDK includes the following functions:
 
